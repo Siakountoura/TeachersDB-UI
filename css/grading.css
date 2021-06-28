@@ -1,0 +1,205 @@
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 15%;
+  height: 100%;
+  margin: 10px;
+  margin-left: 15px;
+  margin-top: 25px;
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.col1 h3 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  border-bottom: 1.5px solid #df9aaa;
+  margin: 10px;
+  padding: 20px;
+}
+
+.col1 p {
+  overflow-wrap: break-word;
+  line-height: 22px;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 25px;
+  padding: 3pxs;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+  height: 100%;
+}
+
+.tableinfo {
+  width: 92%;
+  height: 18%;
+  margin-top: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tableinfo p {
+  margin: 3px;
+  padding: 2px;
+}
+
+.title {
+  margin: 4px;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.tableinfo input {
+  height: 25px;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid #df9aaa;
+}
+
+.tableinfo input::placeholder {
+  color: #df9aaa;
+
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.tableinfo input:focus::placeholder {
+  color: transparent;
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.gradetitle {
+  width: 270px;
+}
+
+.studname {
+  width: 250px;
+  margin-right: 18px;
+}
+
+.gymnasiolukeio,
+.taksi {
+  width: 150px;
+  margin-right: 18px;
+}
+
+.table {
+  height: 70%;
+  width: 92%;
+  margin: 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tbody {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.theader {
+  font-weight: 200;
+  font-size: 1rem;
+  color: #ffffffd5;
+  height: 30px;
+  background-color: #efa2b4 !important;
+}
+
+select {
+  width: 166px;
+  height: 37px;
+  font-weight: 300;
+  font-size: 13px;
+  border: 2px solid #eeeeee;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.table input {
+  margin: 1px;
+  width: 70px;
+  height: 30px;
+  font-weight: 300;
+  font-size: 13px;
+  border: 1.5px solid #efa2b4;
+}
+
+tbody tr:nth-child(odd) {
+  font-weight: 300;
+  font-size: 0.92rem;
+  background-color: #fafafa;
+  margin: 1px;
+}
+
+tbody tr:nth-child(even) {
+  font-weight: 300;
+  font-size: 0.92rem;
+  margin: 1px;
+  background-color: #eeeeee;
+}
+
+tr td:nth-child(1) {
+  width: 30px;
+}
+
+.gradesubmitbtn {
+  font-weight: 400;
+  color: #d62963;
+  font-size: 13px;
+  margin: 3px;
+  margin-right: 1px;
+  width: 74px;
+  height: 35px;
+  background: #ffffff;
+  padding: 8px 10px 8px 9px;
+  border: solid #efa2b4 1px;
+  border-radius: 2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition-duration: 0.33s;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(to left, transparent, #e4578686 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.lastrow {
+  height: 30px;
+}
+
+.finalgrade {
+  font-weight: 400;
+  color: #132131e8;
+}
+
+.gradesubmitbtn:hover {
+  text-decoration: none;
+  background-position: left;
+}

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/landingpage.css" />
+    <link rel="stylesheet" href="css/grading.css" />
+    <link
+      rel="stylesheet"
+      <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="dashboard">
+        <div class="header">
+          <h4>TEACHERS DATABASE</h4>
+          <p>ΧΡΗΣΤΗΣ:</p>
+        </div>
+
+        <div class="nav">
+          <div class="links">
+            <img src="icons/icons8-home-25 (1).png" />
+            <a href="landingpage.html"> ΑΡΧΙΚΗ</a>
+          </div>
+          <div class="links">
+            <img src="icons/icons8-conference-25 (1).png" />
+            <a href="http://">ΧΡΗΣΤΕΣ</a>
+          </div>
+          <div class="links">
+            <img src="icons/icons8-building-25 (1).png" />
+            <a href="http://">ΒΑΘΜΙΔΑ</a>
+          </div>
+          <div class="links">
+            <img src="icons/icons8-students-25.png" />
+            <a href="studentinfo.php">ΜΑΘΗΤΕΣ</a>
+          </div>
+          <div class="links">
+            <img src="icons/icons8-documents-25.png" />
+            <a href="grading.html">ΑΞΙΟΛΟΓΗΣΗ</a>
+          </div>
+        </div>
+
+        <div class="footer">
+          <h5>ΑΠΟΣΥΝΔΕΣΗ</h5>
+        </div>
+      </div>
+
+      <section class="glass">
+        <div class="content">
+          <div class="col1">
+            <h3>Τι είναι οι Ρουμπρίκες Αξιολόγησης;</h3>
+            <p>
+              Οι «Ρουμπρίκες Αξιολόγησης» αποτελούν ένα περιγραφικό οδηγό
+              βαθμολόγησης της επίδοσης των μαθητών ο οποίος αποτελείται από
+              ειδικά εκ των προτέρων καθορισμένα κριτήρια απόδοσης.
+              <br /><br />
+              Αυτά τα εργαλεία επιτρέπουν στους εκπαιδευτικούς να βαθμολογούν
+              αποτελεσματικά, να κρίνουν την εργασία των μαθητών βάση ενώς
+              προτύπου και να γνωστοποιούν εύκολα σε κάθε μαθητή τις απαιτήσεις
+              του μαθήματος.
+            </p>
+          </div>
+
+          <span class="col2">
+            <div class="tableinfo">
+              <p class="title">Δημιουργία Πίνακα Αξιολόγησης</p>
+              <p class="gradinginfo">
+                <input
+                  type=" text"
+                  name=""
+                  class="gradetitle"
+                  placeholder="Τίτλος: "
+                />
+              </p>
+              <p>
+                <input
+                  type=" text"
+                  name=""
+                  class="studname"
+                  placeholder="Όνομα Μαθητή: "
+                />
+                <input
+                  type=" text"
+                  name=""
+                  class="gymnasiolukeio"
+                  placeholder="Βαθμίδα: "
+                />
+                <input
+                  type=" text"
+                  name=""
+                  class="taksi"
+                  placeholder="Τάξη: "
+                />
+              </p>
+            </div>
+
+            <div class="table">
+              <table>
+                <thead>
+                  <tr class="theader">
+                    <th>ΚΡΙΤΗΡΙΑ</th>
+                    <th>4</th>
+                    <th>3</th>
+                    <th>2</th>
+                    <th>1</th>
+                    <th>ΒΑΘΜΟΙ</th>
+                  </tr>
+                </thead>
+
+                <tbody id="ans" class="tbody">
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 1 [cell 2]</td>
+                    <td class="grade-3">row 1 [cell 3]</td>
+                    <td class="grade-2">row 1 [cell 4]</td>
+                    <td class="grade-1">row 1 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp1" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 2 [cell 2]</td>
+                    <td class="grade-3">row 2 [cell 3]</td>
+                    <td class="grade-2">row 2 [cell 4]</td>
+                    <td class="grade-1">row 2 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp2" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 3 [cell 2]</td>
+                    <td class="grade-3">row 3 [cell 3]</td>
+                    <td class="grade-2">row 3 [cell 4]</td>
+                    <td class="grade-1">row 3 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp3" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 4 [cell 2]</td>
+                    <td class="grade-3">row 4 [cell 3]</td>
+                    <td class="grade-2">row 4 [cell 4]</td>
+                    <td class="grade-1">row 4 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp4" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 5 [cell 2]</td>
+                    <td class="grade-3">row 5 [cell 3]</td>
+                    <td class="grade-2">row 5 [cell 4]</td>
+                    <td class="grade-1">row 5 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp5" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 6 [cell 2]</td>
+                    <td class="grade-3">row 6 [cell 3]</td>
+                    <td class="grade-2">row 6 [cell 4]</td>
+                    <td class="grade-1">row 6 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp6" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 7 [cell 2]</td>
+                    <td class="grade-3">row 7 [cell 3]</td>
+                    <td class="grade-2">row 7 [cell 4]</td>
+                    <td class="grade-1">row 7 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp7" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 8 [cell 2]</td>
+                    <td class="grade-3">row 8 [cell 3]</td>
+                    <td class="grade-2">row 8 [cell 4]</td>
+                    <td class="grade-1">row 8 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp8" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 9 [cell 2]</td>
+                    <td class="grade-3">row 9 [cell 3]</td>
+                    <td class="grade-2">row 9 [cell 4]</td>
+                    <td class="grade-1">row 9 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp9" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <select name="select_catg">
+                        <option value="" disabled selected hidden>
+                          Παρακαλώ Eπιλέξτε
+                        </option>
+                      </select>
+                    </td>
+                    <td class="grade-4">row 10 [cell 2]</td>
+                    <td class="grade-3">row 10 [cell 3]</td>
+                    <td class="grade-2">row 10 [cell 4]</td>
+                    <td class="grade-1">row 10 [cell 5]</td>
+                    <td>
+                      <input type="text" name="" class="gradeinp10" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="lastcell"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="finalgrade">
+                      Τελική <br />
+                      Βαθμολογία
+                    </td>
+                    <td>
+                      <input type="text" name="" id="" class="gradeinp10" />
+                    </td>
+                  </tr>
+                  <tr class="lastrow">
+                    <td colspan="6" style="text-align: right">
+                      <button
+                        class="gradesubmitbtn"
+                        type="submit"
+                        form="form1"
+                        value="Submit"
+                      >
+                        ΥΠΟΒΟΛΗ
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </span>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
